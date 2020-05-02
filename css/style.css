@@ -1,0 +1,240 @@
+body {
+	/*Definicja dla znacznika każdej strony, można też dla klasy albo elementu*/
+	background-color: #d8fcd9;
+}
+
+.page_content {
+	background-image: url(../img/bg.jpg);
+}
+
+.logo {
+	margin-bottom: 80px;
+	border-bottom: 7px dotted #FFFFFF;
+}
+
+.logo_font {
+	font-family: 'Lobster', cursive;
+}
+
+.torty_p {
+	text-indent: 35px;
+}
+
+
+.nav {
+	/*border-bottom: 15px dotted white;*/
+	padding-bottom: 20px;
+	margin-bottom: 40px;
+}
+
+.button {
+	border-radius: 60px !important;
+	background-color: #d8fcd9 !important;
+	color: black !important;
+}
+
+.button:hover {
+	background-color: blueviolet !important;
+	color: white !important;
+}
+
+.active {
+	background-color: blueviolet !important;
+	color: white !important;
+}
+
+.box {
+	margin-top: 40px;
+	margin-bottom: 40px;
+	text-align: justify;
+	color: white;
+	background: url(../img/main_box_bg.png) repeat;
+	border: 10px solid #EEFDF8;
+	padding: 22px 40px 25px 22px;
+}
+
+.corner {
+	background: url(../img/main_box_wstazka.png) no-repeat left top;
+	position: absolute;
+	width: 93px;
+	height: 115px;
+	left: 10px;
+	top: 0px;
+}
+
+.p {
+	/*wcięcie tekstu w paragrafie - do sprawdzenia*/
+	text-indent: 30px !important;
+}
+
+.collapsed {
+	width: 100%;
+}
+
+.btn.collapsed {
+	text-transform: none;
+	background-color: #FFFFF0;
+}
+
+.allli.btn.collapsed:after {
+	font-family: 'FontAwesome';
+	content: "\f107";
+	font-size: 2em;
+	float: right;
+
+}
+
+.naglowek_btn {
+	font-size: 20px;
+	font-weight: bold;
+}
+
+
+#myCarousel {
+	margin-top: 40px;
+	width: 100%;
+	height: 100%;
+
+}
+
+.carousel-item {
+	border: 10px solid #EEFDF8 !important;
+}
+
+.content {
+	/*border-bottom: 15px dotted white;*/
+	padding-top: 40px;
+	padding-bottom: 40px;
+	margin-bottom: 40px;
+}
+
+.box_content1 {
+	margin-top: 20px;
+	background: url(../img/fb1.png) no-repeat;
+	text-align: center;
+	font-family: cursive;
+	background-position: center;
+	min-height: 250px;
+	padding-top: 100PX;
+}
+
+.box_content2 {
+	margin-top: 20px;
+	background: url(../img/fb2.png) no-repeat;
+	text-align: center;
+	font-family: cursive;
+	background-position: center;
+	min-height: 250px;
+	padding-top: 100PX;
+}
+
+.box_content3 {
+	margin-top: 20px;
+	background: url(../img/fb3.png) no-repeat;
+	text-align: center;
+	font-family: cursive;
+	background-position: center;
+	min-height: 250px;
+	padding-top: 100PX;
+}
+
+h1 {
+	font-size: 40px;
+	font-family: fantasy;
+	text-align: center;
+	padding-top: 40px;
+}
+
+h2 {
+	font-size: 34px;
+	font-family: fantasy;
+	text-align: center;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+h3 {
+	font-size: 35px;
+	text-align: center;
+	padding-bottom: 30px;
+}
+
+.list {
+	float: left;
+	text-align: justify;
+	list-style-type: circle;
+
+}
+
+.rectangle {
+	padding-left: 40px;
+	font-family: monospace;
+	font-weight: bold;
+	font-size: 18px;
+}
+
+.rectangle ul {
+	float: right;
+	list-style-type: none;
+	text-align: center;
+}
+
+.rectangle ul a {
+	color: black;
+	text-decoration: none;
+	display: block;
+}
+
+.rectangle ul > li {
+	float: right;
+	width: 140px;
+}
+
+#regulamin {
+	list-style-type: decimal;
+}
+
+.ciasto {
+	width: 100%;
+	margin: 10px;
+	border-radius: 60px !important;
+	background-color: #d8fcd9 !important;
+	color: black !important;
+}
+
+.red {
+	color: red;
+}
+
+.fa-facebook {
+	font-size: 40px;
+	color: #305BB0;
+	line-height: 150%;
+}
+
+.fa-phone {
+	font-size: 40px;
+	color: #305BB0;
+	line-height: 150%;
+}
+
+.fa-envelope {
+	font-size: 40px;
+	color: #305BB0;
+	line-height: 150%;
+}
+
+.form-area {
+	padding: 10px 30px 60px;
+	margin: 10px 20px 60px;
+	border: 1px solid GREY;
+}
+
+.collapse {
+	color: black;
+}
+
+.miniatury p {
+	font-size: 20px;
+	text-align: center;
+}
